@@ -16,7 +16,7 @@ class CicdApplicationTests {
 	void test() {
 		List<Integer>list=new ArrayList<>();
 
-		assertThat(list.isEmpty()).isFalse();
+		assertThat(list.isEmpty()).isTrue();
 	}
 
 }
