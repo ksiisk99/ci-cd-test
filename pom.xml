@@ -46,6 +46,9 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<layers>
+						<enabled>false</enabled>
+					</layers>
 				</configuration>
 			</plugin>
 		</plugins>
